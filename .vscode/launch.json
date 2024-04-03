@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "ts-node",
+      "program": "${workspaceFolder}/src/main.ts",
+      "sourceMaps": true,
+      "outFiles": [
+        "${workspaceFolder}/dist/src/main.js"
+      ]
+    }
+  ]
+}
